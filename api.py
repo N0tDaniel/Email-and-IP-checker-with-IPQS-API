@@ -3,11 +3,8 @@ import requests
 
 app = Flask(__name__)
 
-# Inserisci qui la tua chiave API di Ipqualityscore
-API_KEY = "FSVmxVT0p27m2PMya3OiHvJbBJlbsbrs"
-
-# Sostituisci questo valore con il tuo token di verifica
-VALID_TOKEN = "666"
+API_KEY = ""
+VALID_TOKEN = "56756756756"
 
 def check_ip(ip):
     url = f"https://ipqualityscore.com/api/json/ip/{API_KEY}/{ip}"
